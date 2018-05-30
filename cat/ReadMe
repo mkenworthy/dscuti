@@ -1,0 +1,114 @@
+J/A+AS/144/469      Delta Scuti stars                        (Rodriguez+, 2000)
+================================================================================
+A revised catalogue of Delta Sct stars
+     Rodriguez E., Lopez-Gonzalez M.J., Lopez de Coca P.
+    <Astron. Astrophys. Suppl. Ser. 144, 469 (2000)>
+    =2000A&AS..144..469R
+================================================================================
+ADC_Keywords: Stars, variable ; Radial velocities ; Rotational velocities ;
+              Photometry, UBV ; Photometry, uvby ; Parallaxes, spectroscopic
+Keywords: stars: variables: {delta} Sct - stars: oscillations -
+          stars: fundamental parameters - techniques: photometric
+
+Abstract:
+    An extensive and up-dated list of {delta} Sct stars is presented here.
+    More than 500 papers, published during the last few years, have been
+    revised and 341 new variables have been added to our last list, six
+    years ago. This catalogue is intended to be a comprehensive review on
+    the observational characteristics of all the {delta} Sct stars known
+    until now, including stars contained in earlier catalogues together
+    with other new discovered variables, covering information published
+    until January 2000. In summary, 636 variables, 1149 references and 182
+    individual notes are presented in this new list.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+table1.dat       301      636   Delta Sct stars
+refs.dat         167     1149   References cited in table1
+notes.dat         80      349   Notes of table1
+table2.dat        30       90   Cross-identification for {delta} Sct variables
+                                 observed by MACHO project
+tables.tex       162     5016   LaTeX version of the tables
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---     HD        ? HD (Cat. <III/135>) number
+       7  A1    ---   m_HD        Multiplicity index on HD
+   8- 13  I6    ---     SAO       ? SAO (Cat. <I/131>) number
+  15- 23  F9.5  ---     CD        ? CD (Cat. <I/114>) number
+  25- 38  A14   ---     GCVS      Usual name
+  40- 41  I2    h       RAh       Righ ascension (J2000)
+  43- 44  I2    min     RAm       Righ ascension (J2000)
+  46- 49  F4.1  s       RAs       Righ ascension (J2000)
+      51  A1    ---     DE-       Declination sign (J2000)
+  52- 53  I2    deg     DEd       Declination (J2000)
+  55- 58  F4.1  arcmin  DEm       Declination (J2000)
+  60- 69  A10   ---     CCDM      CCDM (Cat. <I/211>) number
+  70- 71  A2    ---   m_CCDM      Multiplicity index on CCDM
+  73- 78  I6    ---     HIP       ? HIP (Cat. <I/239>) number
+      79  A1    ---   u_Per       Uncertainty flag on Per
+  81- 86  F6.4  d       Per       Period
+  88- 92  F5.3  mag     AmpV      Amplitude in V magnitude
+  93- 95  A3    ---   n_AmpV      (R) when amplitude in R magnitude in AmpV
+  97-101  F5.2  mag     Vmag      V magnitude
+ 103-105  A3    ---   n_Vmag      (B) or (I) when Bmag or Imag in Vmag
+     107  A1    ---   u_vsini     Uncertainty flag on vsini
+ 109-110  A2    ---   l_vsini     [<= ] Limit flag on vsini
+ 111-113  I3    km/s    vsini     ? Rotational velocity
+ 115-118  I4    km/s    RV        ? Radial velocity
+ 120-131  A12   ---     SpType    Spectral type
+ 133-162  A30   ---     Refs      List of references detailed in file refs.dat
+ 163-166  I4    ---     HR        ? HR (Cat. <V/50>) number
+     167  A1    ---   m_HR        Multiplicity index on HR
+ 169-177  F9.5  ---     BD        ? BD (Cat. <I/122>) number
+     178  A1    ---   m_BD        Multiplicity index on BD
+ 180-188  F9.5  ---     CPD       ? CPD (Cat. <I/108>) number
+ 189-202  A14   ---     Other     Other name
+ 205-209  F5.2  mas     plx       ? Parallaxe
+ 211-214  F4.2  mas   e_plx       ? rms uncertainty on plx
+ 216-220  F5.2  mag     B-V       ? B-V colour index
+ 222-226  F5.2  mag     U-B       ? U-B colour index
+ 228-233  F6.3  mag     b-y       ? b-y colour index
+ 235-239  F5.3  mag     m1        ? m_1_ index
+ 241-245  F5.3  mag     c1        ? c_1_ index
+ 247-251  F5.3  mag     beta      ? {beta} index
+ 253-301  A49   ---     Notes     ? Note numbers detailed in notes.dat file
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: refs.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  4  I4    ---     RefNo     Reference number
+   6- 24  A19   ---     BibCode   BibCode
+  26- 80  A55   ---     Aut       Author names
+  81-168  A88   ---     Com       Comments
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: notes.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  3  I3    ---     Note      Number of the Note
+   5- 80  A76   ---     Text      Text of the note
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  8  A8    ---     Other     MACHO designation in column Other of table1
+       9  A1    ---     ---       [=]
+  10- 29  A20   ---     MACHO     MACHO general designation
+--------------------------------------------------------------------------------
+
+Acknowledgements: Eloy Rodriguez <eloy@iaa.es>
+
+================================================================================
+(End)                                          Patricia Bauer [CDS]  20-Apr-2000
